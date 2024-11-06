@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(32, 34, 40, 1);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Knewave", system-ui;
+}
+header {
+    display: flex;
+    gap: 365px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(32, 34, 40, 1);
+    width: 1440px;
+    margin:0 ;
+}
+.header img{
+  width: 190px;
+  height: 200px;
+}
+header img {
+    height: 50px;
+}
+nav ul {
+
+    display: flex;
+    gap: 70px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    color: rgba(214, 126, 53, 1);
+}
+.hero {
+    text-align: center;
+    margin: 200px 0 ;
+}
+.hero h1 {
+    color: rgba(214, 126, 53, 1);
+    font-size: 80px;
+    margin:px 0;
+}
+.hero h2 {
+    color: #fff;
+    font-size: 80px;
+    margin: 20px 0;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px 0;
+    background-color: rgba(214, 126, 53, 1);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 36px;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: rgba(214, 126, 53, 1);
+}
+h1, h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-text {
+    max-width: 40%;
+    font-size: 30;
+   
+}
+
+.about-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-images img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.steaks {
+    text-align: center;
+}
+
+.steak-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.steak-item {
+    text-align: center;
+    color: white;
+}
+
+.steak-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.steak-item p {
+    font-size: 50px;
+    margin-top: 10px;
+}
+.divx {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.gallery {
+    display: flex;
+    gap: 336px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.footer-container{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(32, 34, 40, 1);
+    width: 1440px;
+    margin: 0 auto;  
+}
+.footer-logo img{
+    width: 190px;
+  height: 200px;
+}
+.footer-nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+
+}.footer-nav a:hover{
+    color: rgba(214, 126, 53, 1);
+}
+.footer-nav{
+    display: flex;
+    gap: 70px;
+}
+.footer-social-icons a {
+    margin: 0 10px;
+}
+
+.footer-social-icons img {
+    width: 35px;
+    height: 34px; 
+}
+@media (max-width:768px) {
+    /* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(32, 34, 40, 1);
+    gap: 0;
+}
+.logo {
+    height: 70px;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+    font-family: 'Arial', sans-serif;
+}
+
+.header nav ul li a:hover {
+    color: #f39c12;
+}
+.hero{
+    margin: 0 120px;
+}
+.hero h1{
+    width: 1152px;
+    height: 459px;
+}
+.hero h2{
+    width: 1152px;
+    height: 459px;
+    margin: -260px -25px;
+}
+.btn{
+    margin: -299px 440px;
+    width: 200px;
+}
+.about-us{
+    margin: 50px 300px;
+    width: 768px;
+}
+.about-content{
+    gap: 100px;
+}
+.steaks{
+    margin: 50px 300px;
+    width: 750px;
+}
+.div{
+    margin: 50px 300px;
+    width: 750px; 
+}
+main{
+    margin: 50px 300px;
+    width: 750px;
+    gap: 300;
+}
+.footer-container{
+    margin: 50px 300px;
+    width: 750px;
+    gap:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+}
+@media (max-width:375px;) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(32, 34, 40, 1);
+        gap: 0;
+    }
+    .logo {
+        height: 70px;
+    }
+    
+    .header nav ul {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+    }
+    
+    .header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        transition: color 0.3s;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .header nav ul li a:hover {
+        color: #f39c12;
+    }
+    .hero{
+        margin: 0 120px;
+    }
+    .hero h1{
+        width: 1152px;
+        height: 459px;
+    }
+    .hero h2{
+        width: 1152px;
+        height: 459px;
+        margin: -260px -25px;
+    }
+    .btn{
+        margin: -299px 440px;
+        width: 200px;
+    }
+    .about-us{
+        margin: 50px 300px;
+        width: 768px;
+    }
+    .about-content{
+        gap: 100px;
+    }
+    .steaks{
+        margin: 50px 300px;
+        width: 750px;
+    }
+    .div{
+        margin: 50px 300px;
+        width: 750px; 
+    }
+    main{
+        margin: 50px 300px;
+        width: 750px;
+        gap: 300;
+    }
+    .footer-container{
+        margin: 50px 300px;
+        width: 750px;
+        gap:40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+}
